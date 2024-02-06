@@ -67,8 +67,9 @@
 
             .section__textarea--h2 {
 
-                font-size: 70px;
+                font-size: 75px;
                 line-height: 1.33;
+                padding: 0px 200px;
 
 
 
@@ -90,6 +91,44 @@
             padding: 13px;
             border-radius: 50%;
             margin-bottom: 22px;
+
+        }
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section {
+
+
+        .section__textarea {
+
+            .section__textarea--h2 {
+
+                font-size: 75px;
+                line-height: 1.33;
+                padding: 0px 200px;
+
+
+
+            }
+
+            .section__textarea--h3 {
+
+                line-height: 1.17;
+                font-size: 24px;
+                margin-bottom: 40px;
+                padding: 0px 290px;
+
+
+            }
+        }
+
+        .section__icon {
+
+            padding: 13px;
+            border-radius: 50%;
+            margin-bottom: 44px;
 
         }
 
