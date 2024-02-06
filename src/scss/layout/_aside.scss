@@ -7,7 +7,10 @@
     display: grid;
     grid-template-columns: 1f;
     grid-template-rows: 1fr;
-    gap: 5px;
+    gap: 10px;
+    justify-content: center;
+
+
 
 
 
@@ -24,12 +27,10 @@
 
         span {
             font-size: 12px;
-
         }
 
         h2 {
             font-size: 20px;
-
         }
     }
 
@@ -42,21 +43,31 @@
     }
 
     .aside__imgs {
-        margin-top: 20px;
-        padding: 0px 103px;
-        border-radius: 50%;
+
         width: 100%;
 
 
+
+        .aside__imgs--imgs {
+            margin-top: 20px;
+
+
+            // padding: 0px 103px;
+            margin: 0px 103px;
+            border-radius: 50%;
+            box-shadow: 5px 5px 10px $color-greyish-brown;
+            width: 120px;
+        }
     }
 
     .aside__button {
 
+        position: relative;
         margin: 0px 68px;
-        justify-content: center;
-        text-align: center;
         width: 184px;
         height: 45px;
+        margin-bottom: 32px;
+
 
 
 
@@ -65,7 +76,7 @@
         font-weight: bold;
 
 
-        padding: 10px 14px;
+        padding: 8px 14px;
         border: 2px solid $color-moss-green;
         border-radius: 22.5px;
         background-color: $color-moss-green;
@@ -76,6 +87,8 @@
         a {
             text-decoration: none;
             color: $color-white;
+            padding: 10px;
+
 
 
         }
