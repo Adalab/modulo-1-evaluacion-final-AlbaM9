@@ -14,23 +14,11 @@
     line-height: 1.88;
     font-size: 16px;
 
-    ul {
-        list-style: none;
 
-        a {
-            text-decoration: none;
-            color: $color-white;
-        }
-
-        a:hover {
-
-            color: $color-moss-green;
-        }
-    }
 
     .footer__navs {
-        margin-top: 60.5px;
 
+        margin-top: 50px;
 
         .footer__navs--products {
 
@@ -38,6 +26,20 @@
         }
 
         .footer__navs--rrss {}
+
+        ul {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: $color-white;
+            }
+
+            a:hover {
+
+                color: $color-moss-green;
+            }
+        }
 
 
     }
@@ -90,7 +92,7 @@
                 margin-bottom: 20px;
             }
 
-            .footer__navs--rrss {}
+
 
 
         }
@@ -106,6 +108,7 @@
 
             }
         }
+
 
     }
 
