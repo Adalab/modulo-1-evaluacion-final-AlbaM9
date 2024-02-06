@@ -1,0 +1,58 @@
+.section {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/images/cover.jpeg);
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+    text-align: center;
+
+
+    .section__textarea {
+
+
+        margin-top: 297px;
+        color: $color-white;
+        line-height: 1.67;
+        padding: 0px 42.5px 0px 42.5px;
+
+
+        .section__textarea--h2 {
+
+            font-size: 30px;
+            margin-bottom: 20px;
+            font-family: $font-titles;
+
+
+
+        }
+
+        .section__textarea--h3 {
+
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-family: $font-regular;
+
+
+        }
+    }
+
+
+
+
+    .section__icon {
+
+        background-color: $color-white;
+        padding: 10px;
+        border-radius: 50%;
+        margin-bottom: 58px;
+
+
+    }
+
+}

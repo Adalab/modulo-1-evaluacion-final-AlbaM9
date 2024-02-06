@@ -1,0 +1,66 @@
+.section_2 {
+
+    margin-top: 34px;
+    padding: 0px 13px;
+
+    .section_2__textblock {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: $font-regular;
+        text-align: left;
+        font-weight: bold;
+
+        .section_2__textblock--span {
+
+
+            color: $color-moss-green;
+            font-size: 14px;
+
+        }
+
+        .section_2__textblock--h2 {
+
+            font-family: $font-titles;
+            font-size: 22px;
+            line-height: 1.36;
+
+        }
+
+        .section_2__textblock--p {
+            font-size: 18px;
+            line-height: 1.67;
+        }
+
+    }
+
+    .section_2__buyButton {
+
+        width: 160px;
+        height: 45px;
+
+        display: flex;
+        justify-content: center;
+        margin-top: 42px;
+        font-family: $font-regular;
+        font-size: 20px;
+        font-weight: bold;
+
+
+        padding: 10px 14px;
+        border: 2px solid $color-moss-green;
+        border-radius: 22.5px;
+
+
+
+        a {
+            text-decoration: none;
+            color: $color-moss-green;
+
+
+        }
+
+    }
+
+
+}
