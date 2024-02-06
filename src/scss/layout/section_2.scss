@@ -71,3 +71,49 @@
 
 
 }
+
+@media screen and (min-width: 768px) {
+    .section_2 {
+
+        padding: 0px 38px;
+
+        .section_2__textblock {
+
+
+            .section_2__textblock--span {
+
+                font-size: 16px;
+
+            }
+
+            .section_2__textblock--h2 {
+
+
+                font-size: 32px;
+
+
+            }
+
+            .section_2__textblock--p {
+                font-size: 20px;
+
+            }
+
+        }
+
+        .section_2__buyButton {
+
+
+            margin-top: 22px;
+
+
+            margin-bottom: 60px;
+
+
+
+        }
+
+
+    }
+
+}
