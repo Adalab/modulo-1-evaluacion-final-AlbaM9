@@ -5,7 +5,7 @@
 
 
     display: grid;
-    grid-template-columns: 1f;
+    grid-template-columns: 1;
     grid-template-rows: 1fr;
     gap: 10px;
     justify-content: center;
@@ -45,7 +45,7 @@
             margin-top: 20px;
             margin: 0px 103px;
             border-radius: 50%;
-            box-shadow: 5px 5px 10px $color-greyish-brown;
+            box-shadow: 0 4px 4px 0 $color-greyish-brown;
             width: 120px;
         }
     }
@@ -86,6 +86,129 @@
 
         }
 
+
+
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .aside {
+
+
+
+        grid-template-columns: 1 144px 1;
+        grid-template-rows: 1fr 159px 1fr 1;
+
+        padding: 0px;
+        column-gap: 100px;
+        align-items: center;
+
+
+
+        .aside__texts {
+
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row: 1;
+            align-items: center;
+
+            margin-left: 250px;
+            padding: 0px;
+            font-weight: bold;
+
+
+
+            span {
+                font-size: 12px;
+                line-height: 2.5;
+                text-align: center;
+
+            }
+
+            h2 {
+                font-size: 20px;
+                line-height: 1.61;
+                margin-bottom: 22px;
+                text-align: center;
+
+            }
+        }
+
+        .aside__bottext {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            grid-row: 3;
+
+
+        }
+
+        .aside__imgs {
+
+            grid-row: 2;
+
+
+
+
+
+
+
+
+
+            .aside__imgs--imgs {
+
+
+                margin: 0px 15px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 10px $color-greyish-brown;
+                width: 144px;
+            }
+        }
+
+        .aside__button {
+
+            grid-row: 4;
+            grid-column: 1/4;
+
+
+            margin: 20px 275px;
+            width: 184px;
+            height: 45px;
+            margin-bottom: 32px;
+
+
+
+
+            font-family: $font-regular;
+            font-size: 20px;
+            font-weight: bold;
+
+
+            padding: 8px 14px;
+            border: 2px solid $color-moss-green;
+            border-radius: 22.5px;
+            background-color: $color-moss-green;
+
+            &:hover {
+
+                background-color: $color-greyish-brown;
+                transform: scale(120%);
+            }
+
+
+
+            a {
+                text-decoration: none;
+                color: $color-white;
+                padding: 10px;
+
+            }
+
+
+
+        }
 
 
     }
