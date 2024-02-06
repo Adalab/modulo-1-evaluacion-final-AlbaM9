@@ -71,6 +71,11 @@
         border-radius: 22.5px;
         background-color: $color-moss-green;
 
+        &:hover {
+
+            background-color: $color-greyish-brown;
+            transform: scale(120%);
+        }
 
 
 
@@ -78,8 +83,6 @@
             text-decoration: none;
             color: $color-white;
             padding: 10px;
-
-
 
         }
 
