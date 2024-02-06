@@ -1,0 +1,86 @@
+.aside {
+    min-width: 320px;
+    background-color: $color-light-grey;
+    font-family: $font-titles;
+
+
+    display: grid;
+    grid-template-columns: 1f;
+    grid-template-rows: 1fr;
+    gap: 5px;
+
+
+
+
+
+
+
+
+    .aside__texts {
+        text-align: center;
+        margin-top: 18px;
+        padding: 0px 11px;
+        font-weight: bold;
+
+        span {
+            font-size: 12px;
+
+        }
+
+        h2 {
+            font-size: 20px;
+
+        }
+    }
+
+    .aside__bottext {
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+
+
+    }
+
+    .aside__imgs {
+        margin-top: 20px;
+        padding: 0px 103px;
+        border-radius: 50%;
+        width: 100%;
+
+
+    }
+
+    .aside__button {
+
+        margin: 0px 68px;
+        justify-content: center;
+        text-align: center;
+        width: 184px;
+        height: 45px;
+
+
+
+        font-family: $font-regular;
+        font-size: 20px;
+        font-weight: bold;
+
+
+        padding: 10px 14px;
+        border: 2px solid $color-moss-green;
+        border-radius: 22.5px;
+        background-color: $color-moss-green;
+
+
+
+
+        a {
+            text-decoration: none;
+            color: $color-white;
+
+
+        }
+
+
+
+    }
+}
