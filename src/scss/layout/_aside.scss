@@ -156,8 +156,12 @@
         height: 45px;
         width: 45px;
         transform: translateY(20px);
-        animation-name: example;
-        animation-duration: 3s;
+
+
+        & :hover {
+            animation-name: example;
+            animation-duration: 2s;
+        }
 
     }
 
@@ -165,6 +169,7 @@
 
 @keyframes example {
     from {
+
 
         transform: rotate(0);
     }
