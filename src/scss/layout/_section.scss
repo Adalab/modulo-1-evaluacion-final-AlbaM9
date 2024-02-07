@@ -13,7 +13,7 @@
     text-align: center;
 
 
-    .section__textarea {
+    &__textarea {
 
 
         margin-top: 297px;
@@ -22,7 +22,7 @@
         padding: 0px 42.5px 0px 42.5px;
 
 
-        .section__textarea--h2 {
+        &--h2 {
 
             font-size: 30px;
             margin-bottom: 10px;
@@ -33,7 +33,7 @@
 
         }
 
-        .section__textarea--h3 {
+        &--h3 {
 
             font-size: 16px;
             margin-bottom: 10px;
@@ -47,7 +47,7 @@
 
 
 
-    .section__icon {
+    &__icon {
 
         background-color: $color-white;
         padding: 10px;
@@ -63,9 +63,9 @@
     .section {
 
 
-        .section__textarea {
+        &__textarea {
 
-            .section__textarea--h2 {
+            &--h2 {
 
                 font-size: 75px;
                 line-height: 1.33;
@@ -75,7 +75,7 @@
 
             }
 
-            .section__textarea--h3 {
+            &--h3 {
 
                 line-height: 1.17;
                 font-size: 24px;
@@ -86,7 +86,7 @@
             }
         }
 
-        .section__icon {
+        &__icon {
 
             padding: 13px;
             border-radius: 50%;
@@ -101,9 +101,9 @@
     .section {
 
 
-        .section__textarea {
+        &__textarea {
 
-            .section__textarea--h2 {
+            &--h2 {
 
                 font-size: 75px;
                 line-height: 1.33;
@@ -113,7 +113,7 @@
 
             }
 
-            .section__textarea--h3 {
+            &--h3 {
 
                 line-height: 1.17;
                 font-size: 24px;
@@ -124,7 +124,7 @@
             }
         }
 
-        .section__icon {
+        &__icon {
 
             padding: 13px;
             border-radius: 50%;

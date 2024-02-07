@@ -3,7 +3,7 @@
     margin-top: 34px;
     padding: 0px 13px;
 
-    .section_2__textblock {
+    &__textblock {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -11,7 +11,7 @@
 
         font-weight: bold;
 
-        .section_2__textblock--span {
+        &--span {
 
 
             color: $color-moss-green;
@@ -19,7 +19,7 @@
 
         }
 
-        .section_2__textblock--h2 {
+        &--h2 {
 
             font-family: $font-titles;
             font-size: 22px;
@@ -27,14 +27,14 @@
 
         }
 
-        .section_2__textblock--p {
+        &--p {
             font-size: 18px;
             line-height: 1.67;
         }
 
     }
 
-    .section_2__buyButton {
+    &__buyButton {
 
         width: 160px;
         height: 45px;
@@ -79,16 +79,16 @@
 
         padding: 0px 38px;
 
-        .section_2__textblock {
+        &__textblock {
 
 
-            .section_2__textblock--span {
+            &--span {
 
                 font-size: 16px;
 
             }
 
-            .section_2__textblock--h2 {
+            &--h2 {
 
 
                 font-size: 32px;
@@ -96,14 +96,14 @@
 
             }
 
-            .section_2__textblock--p {
+            &--p {
                 font-size: 20px;
 
             }
 
         }
 
-        .section_2__buyButton {
+        &__buyButton {
 
 
             margin-top: 22px;
@@ -125,16 +125,16 @@
 
         padding: 0px 170px;
 
-        .section_2__textblock {
+        &__textblock {
 
 
-            .section_2__textblock--span {
+            &--span {
 
                 font-size: 16px;
 
             }
 
-            .section_2__textblock--h2 {
+            &--h2 {
 
 
                 font-size: 32px;
@@ -142,14 +142,14 @@
 
             }
 
-            .section_2__textblock--p {
+            &--p {
                 font-size: 20px;
 
             }
 
         }
 
-        .section_2__buyButton {
+        &__buyButton {
 
 
             margin-top: 22px;

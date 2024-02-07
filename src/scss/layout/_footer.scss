@@ -16,11 +16,11 @@
 
 
 
-    .footer__navs {
+    &__navs {
 
         margin-top: 50px;
 
-        .footer__navs--products {
+        &--products {
 
             margin-bottom: 20px;
         }
@@ -43,14 +43,14 @@
 
     }
 
-    .footer__copySlog {
+    &__copySlog {
 
         font-size: 14px;
         gap: 5px;
         font-weight: normal;
         margin-bottom: 30px;
 
-        .footer__copySlog--heart {
+        &--heart {
             color: $color-moss-green;
 
         }
@@ -80,13 +80,13 @@
         padding-bottom: 36px;
 
 
-        .footer__navs {
+        &__navs {
             margin-top: 60.5px;
             display: flex;
             gap: 100px;
 
 
-            .footer__navs--products {
+            &--products {
 
                 margin-bottom: 20px;
             }
@@ -96,13 +96,13 @@
 
         }
 
-        .footer__copySlog {
+        &__copySlog {
 
             font-size: 14px;
             font-weight: normal;
 
 
-            .footer__copySlog--heart {
+            &--heart {
                 color: $color-moss-green;
 
             }
@@ -136,13 +136,13 @@
         padding-bottom: 36px;
 
 
-        .footer__navs {
+        &__navs {
             margin-top: 60.5px;
             display: flex;
             gap: 260px;
 
 
-            .footer__navs--products {
+            &--products {
 
                 margin-bottom: 20px;
             }
@@ -152,13 +152,13 @@
 
         }
 
-        .footer__copySlog {
+        &__copySlog {
 
             font-size: 14px;
             font-weight: normal;
 
 
-            .footer__copySlog--heart {
+            &--heart {
                 color: $color-moss-green;
 
             }
