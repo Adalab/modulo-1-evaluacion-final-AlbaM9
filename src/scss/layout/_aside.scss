@@ -133,11 +133,13 @@
         border: 2px solid $color-moss-green;
         border-radius: 22.5px;
         background-color: $color-moss-green;
+        transition: margin-top 2s;
 
         &:hover {
 
-            background-color: $color-greyish-brown;
+
             transform: scale(120%);
+            margin-top: 5px;
         }
 
 
@@ -166,11 +168,27 @@
         height: 45px;
         width: 45px;
         transform: translateY(29px);
+        animation-name: example;
+        animation-duration: 3s;
+
+
+
+        &:hover {}
 
 
 
     }
 
+}
+
+@keyframes example {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @media screen and (min-width: 768px) {

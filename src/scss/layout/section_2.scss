@@ -8,7 +8,7 @@
         flex-direction: column;
         gap: 10px;
         font-family: $font-regular;
-        text-align: left;
+
         font-weight: bold;
 
         .section_2__textblock--span {
@@ -53,11 +53,13 @@
         border-radius: 22.5px;
 
         margin-bottom: 30px;
+        transition: margin-left 2s;
 
         &:hover {
 
-            background-color: $color-light-grey;
+
             transform: scale(120%);
+            margin-left: 30px;
         }
 
         a {
