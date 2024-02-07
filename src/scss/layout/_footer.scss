@@ -25,9 +25,8 @@
             margin-bottom: 20px;
         }
 
-        .footer__navs--rrss {}
 
-        ul {
+        & ul {
             list-style: none;
 
             a {
@@ -74,7 +73,7 @@
         flex-direction: row-reverse;
         justify-content: center;
 
-        gap: 100px;
+        gap: 150px;
         text-align: left;
         line-height: 1.88;
         font-size: 16px;
@@ -130,7 +129,7 @@
         flex-direction: row-reverse;
         justify-content: center;
 
-        gap: 250px;
+        gap: 280px;
         text-align: left;
         line-height: 1.88;
         font-size: 16px;
@@ -140,7 +139,7 @@
         .footer__navs {
             margin-top: 60.5px;
             display: flex;
-            gap: 250px;
+            gap: 260px;
 
 
             .footer__navs--products {
