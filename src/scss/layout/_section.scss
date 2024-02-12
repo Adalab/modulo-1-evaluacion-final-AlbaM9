@@ -6,21 +6,17 @@
     background-image: url(/images/cover.jpeg);
 
 
-    background-size: cover;
+    background-size: 100vw;
     background-repeat: no-repeat;
-    background-position-x: right;
 
     text-align: center;
 
 
     &__textarea {
 
-
-        margin-top: 297px;
+        margin-top: 230px;
         color: $color-white;
-
         padding: 0px 42.5px 0px 42.5px;
-
 
         &--h2 {
 
@@ -28,9 +24,6 @@
             margin-bottom: 10px;
             font-family: $font-titles;
             line-height: 1.67;
-
-
-
         }
 
         &--h3 {
@@ -39,13 +32,8 @@
             margin-bottom: 10px;
             font-family: $font-regular;
             line-height: 1.19;
-
-
         }
     }
-
-
-
 
     &__icon {
 
@@ -53,16 +41,12 @@
         padding: 10px;
         border-radius: 50%;
         margin-bottom: 58px;
-
-
     }
 
 }
 
 @media screen and (min-width: 768px) {
     .section {
-
-
         &__textarea {
 
             &--h2 {
@@ -70,9 +54,6 @@
                 font-size: 75px;
                 line-height: 1.33;
                 padding: 0px 200px;
-
-
-
             }
 
             &--h3 {
@@ -81,8 +62,6 @@
                 font-size: 24px;
                 margin-bottom: 20px;
                 padding: 0px 205px;
-
-
             }
         }
 
@@ -108,9 +87,6 @@
                 font-size: 75px;
                 line-height: 1.33;
                 padding: 0px 200px;
-
-
-
             }
 
             &--h3 {
@@ -119,8 +95,6 @@
                 font-size: 24px;
                 margin-bottom: 40px;
                 padding: 0px 290px;
-
-
             }
         }
 
@@ -129,7 +103,6 @@
             padding: 13px;
             border-radius: 50%;
             margin-bottom: 44px;
-
         }
 
     }

@@ -14,17 +14,13 @@
     line-height: 1.88;
     font-size: 16px;
 
-
-
     &__navs {
 
         margin-top: 50px;
 
         &--products {
-
             margin-bottom: 20px;
         }
-
 
         & ul {
             list-style: none;
@@ -35,12 +31,9 @@
             }
 
             a:hover {
-
                 color: $color-moss-green;
             }
         }
-
-
     }
 
     &__copySlog {
@@ -52,24 +45,13 @@
 
         &--heart {
             color: $color-moss-green;
-
         }
     }
-
-
-
 }
 
 @media screen and (min-width: 768px) {
 
     .footer {
-
-
-
-        font-family: $font-regular ;
-        color: $color-white;
-        font-weight: bold;
-        display: flex;
         flex-direction: row-reverse;
         justify-content: center;
 
@@ -79,53 +61,18 @@
         font-size: 16px;
         padding-bottom: 36px;
 
-
         &__navs {
             margin-top: 60.5px;
             display: flex;
             gap: 100px;
-
-
-            &--products {
-
-                margin-bottom: 20px;
-            }
-
-
-
-
         }
-
-        &__copySlog {
-
-            font-size: 14px;
-            font-weight: normal;
-
-
-            &--heart {
-                color: $color-moss-green;
-
-            }
-        }
-
-
     }
-
-
-
 }
 
 
 @media screen and (min-width: 1200px) {
 
     .footer {
-
-
-
-        font-family: $font-regular ;
-        color: $color-white;
-        font-weight: bold;
-        display: flex;
         flex-direction: row-reverse;
         justify-content: center;
 
@@ -140,31 +87,7 @@
             margin-top: 60.5px;
             display: flex;
             gap: 260px;
-
-
-            &--products {
-
-                margin-bottom: 20px;
-            }
-
-
-
-
         }
-
-        &__copySlog {
-
-            font-size: 14px;
-            font-weight: normal;
-
-
-            &--heart {
-                color: $color-moss-green;
-
-            }
-        }
-
-
     }
 
 

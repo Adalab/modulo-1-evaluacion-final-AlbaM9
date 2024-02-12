@@ -6,9 +6,7 @@
     flex-direction: column;
     align-items: center;
 
-
     &__texts {
-
 
         text-align: center;
         margin-top: 5px;
@@ -31,131 +29,63 @@
         justify-content: center;
         row-gap: 15px;
 
-
-        &--item-1 {
-            grid-column: 2;
-            text-align: center;
-
-            .gridItems__bottext {
-                font-size: 14px;
-                font-weight: bold;
-            }
-
-
-            .gridItems__img {
-                border-radius: 50%;
-                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-                width: 120px;
-            }
-
-        }
-
-        &--item-2 {
-            grid-column: 2;
-            text-align: center;
-
-            .gridItems__bottext {
-
-
-                font-size: 14px;
-                font-weight: bold;
-
-
-            }
-
-
-
-            .gridItems__img {
-
-
-                border-radius: 50%;
-                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-                width: 120px;
-
-            }
-        }
-
+        &--item-1,
+        &--item-2,
         &--item-3 {
             grid-column: 2;
             text-align: center;
-
-            .gridItems__bottext {
-
-
-                font-size: 14px;
-                font-weight: bold;
-
-
-            }
-
-
-
-            .gridItems__img {
-
-
-                border-radius: 50%;
-                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-                width: 120px;
-
-            }
         }
 
+        .gridItems__bottext {
 
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .gridItems__img {
+
+            border-radius: 50%;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+            width: 120px;
+        }
     }
 
     &__button {
-
 
         margin-top: 20PX;
 
         width: 184px;
         height: 45px;
-
-
         font-family: $font-regular;
         font-size: 20px;
         font-weight: bold;
-
 
         padding: 8px 14px;
         border: 2px solid $color-moss-green;
         border-radius: 22.5px;
         background-color: $color-moss-green;
 
-
         &:hover {
-
-
             transform: scale(120%);
-
         }
-
-
 
         a {
             text-decoration: none;
             color: $color-white;
             padding: 10px;
             text-align: center;
-
         }
-
-
-
     }
 
     &__arrow {
 
-
         text-align: center;
-
         background-color: $color-white;
         padding: 10px;
         border-radius: 50%;
         height: 45px;
         width: 45px;
         transform: translateY(20px);
-
 
         & :hover {
             animation-name: example;
@@ -168,22 +98,17 @@
 
 @keyframes example {
     from {
-
-
         transform: rotate(0);
     }
 
     to {
-
         transform: rotate(360deg);
-
     }
 }
 
 @media screen and (min-width: 768px) {
     .section_3 {
 
-
         &__texts {
 
             span {
@@ -197,77 +122,31 @@
 
         &__gridItems {
 
-            display: grid;
             grid-template-columns: 170px 160px 160px;
-            justify-content: center;
-            row-gap: 15px;
             column-gap: 90px;
 
+            .gridItems__bottext {
+                font-size: 18px;
+            }
 
             &--item-1 {
                 grid-column: 1;
-                text-align: center;
-
-                .gridItems__bottext {
-
-                    font-size: 18px;
-                    font-weight: bold;
-                }
-
-
             }
 
             &--item-2 {
                 grid-column: 2;
-                text-align: center;
-
-                .gridItems__bottext {
-
-
-                    font-size: 18px;
-                    font-weight: bold;
-
-
-                }
-
-
-
-
             }
 
             &--item-3 {
                 grid-column: 3;
-                text-align: center;
-
-                .gridItems__bottext {
-
-
-                    font-size: 18px;
-                    font-weight: bold;
-
-
-                }
-
-
-
-
             }
-
-
         }
-
-
-
-
-
-
     }
-
 }
 
 @media screen and (min-width: 1200px) {
-    .section_3 {
 
+    .section_3 {
 
         &__texts {
 
@@ -282,72 +161,24 @@
 
         &__gridItems {
 
-            display: grid;
             grid-template-columns: 170px 160px 160px;
-            justify-content: center;
-            row-gap: 15px;
             column-gap: 140px;
 
+            .gridItems__bottext {
+                font-size: 18px;
+            }
 
             &--item-1 {
                 grid-column: 1;
-                text-align: center;
-
-                .gridItems__bottext {
-
-                    font-size: 18px;
-                    font-weight: bold;
-                }
-
-
-
-
             }
 
             &--item-2 {
                 grid-column: 2;
-                text-align: center;
-
-                .gridItems__bottext {
-
-
-                    font-size: 18px;
-                    font-weight: bold;
-
-
-                }
-
-
-
-
             }
 
             &--item-3 {
                 grid-column: 3;
-                text-align: center;
-
-                .gridItems__bottext {
-
-
-                    font-size: 18px;
-                    font-weight: bold;
-
-
-                }
-
-
-
-
             }
-
-
         }
-
-
-
-
-
-
     }
-
 }
